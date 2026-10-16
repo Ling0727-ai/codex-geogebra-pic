@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "codex-geogebra-pic": {
+      "command": "node",
+      "args": [
+        "./runtime/server.mjs"
+      ],
+      "env_vars": [
+        "CODEX_GEOGEBRA_PIC_CONFIG",
+        "CODEX_PLUGIN_WORKSPACE"
+      ],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 240
+    }
+  }
+}
